@@ -1,0 +1,36 @@
+# Large files
+*.zip
+*.tar.gz
+*.tgz
+*.7z
+*.rar
+
+# Docker volumes and data
+data/
+volumes/
+
+# Environment files with secrets
+.env
+*.env.local
+
+# Logs
+*.log
+logs/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
